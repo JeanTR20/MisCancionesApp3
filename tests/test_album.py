@@ -37,8 +37,7 @@ class AlbumTestCase(unittest.TestCase):
                     anio = self.data[ -1 ][ 1 ] ,
                     descripcion = self.data[ -1 ][ 2 ] ,
                     medio = self.data[ -1 ][ 3 ] ,
-                    canciones = [ ]
-                ) )
+                    canciones = [ ] ) )
             self.session.add ( self.albumes[ -1 ] )
 
         '''Persiste los objetos
