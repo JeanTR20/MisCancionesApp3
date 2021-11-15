@@ -95,3 +95,4 @@ class AlbumTestCaseFake(unittest.TestCase):
             descripcion = self.data[ -1 ][ 2 ] ,
             medio = self.data[ -1 ][ 3 ] )
         self.assertEqual ( resultado , True )
+
